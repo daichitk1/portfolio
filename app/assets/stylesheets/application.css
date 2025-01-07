@@ -1,0 +1,424 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Sacramento');
+.top-introduction {
+  background-image: url("/assets/IMG_5482-0741b2ff.png");
+  text-align: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-size: cover;
+  padding-top: 50px;
+}
+.introduction  {
+  margin: 0 auto;
+}
+ .name {
+  font-family: 'Sacramento', cursive;
+  font-size: 120px;
+  margin: 0;
+ }
+ .introduction-class {
+    width:250px;
+    height: 250px;
+    background-image: url("/assets/introduction_img-29d8db3c.png");
+  }
+
+.main {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.news-title{
+  font-family: 'Cherry Swash', cursive;
+  padding-left: 300px;
+  padding-top: 20px;
+}
+
+.news {
+  height: 450px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(173, 230, 245);
+}
+
+.side-bar {
+  position: fixed;
+  right: 50px;
+  bottom: 400px;
+  padding: 10px;
+  opacity: 1;
+  z-index: 5000;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.on-side-bar {
+  opacity: 0;
+}
+
+#top-btn {
+  position: fixed;
+  width: 140px;
+  height: 140px;
+  z-index: 5000;
+  right: 30px;
+  border-radius: 50%;
+  bottom: 30px;
+}
+#menu-btn {
+  position: fixed;
+  width: 140px;
+  height: 140px;
+  z-index: 5000;
+  right: 30px;
+  border-radius: 50%;
+  bottom: 180px;
+}
+
+#menu-btn:hover {
+  background-color: rgb(255, 252, 192);
+}
+
+#top-btn:hover {
+  background-color: pink;
+}
+
+.news-item {
+  margin: 0 auto;
+  height: 360px;
+  width: 360px;
+}
+
+.your-class {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+.news-harf {
+  background-color: rgb(173, 29, 29);
+  width: 360px;
+  height: 180px;
+
+}
+body {
+  font-family: "kleeone";
+  font-size: 30px;
+  background-color: #dbfafc;
+}
+
+.profile_img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+h2 {
+  font-family: 'Cherry Swash', cursive;
+  font-size: 5px;
+  position: relative;
+  padding: 0;
+  width: 500px;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  content: '';
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(right, #2af598 0%, #009efd 100%);
+  background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
+}
+.all-content {
+  display: flex;
+  justify-content: between;
+}
+.menu-content {
+  text-align: left;
+  margin: 0 auto;
+}
+.content-text {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 20px;
+  max-width: 450px;
+}
+h3 {
+  color: rgb(106, 106, 250);
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+.hobby_img {
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 70%;
+  padding-top: 30px;
+}
+
+.hobby_img:hover {
+  opacity: 0.7;
+}
+
+.semi-title {
+  padding-top:100px;
+  padding-bottom: 300px;
+
+}
+
+.semi-title-1 {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.semi-title-3 {
+  background-color: rgb(214, 248, 245);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sns_img {
+  width: 50px;
+  height: 50px;
+}
+
+.sns_img:hover {
+  opacity: 0.7;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+.flex div{
+  width: 100px;
+}
+
+.prog {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.img {
+  width: 400px;
+}
+
+.hobby-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.hobby {
+  width: 90%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.hobby-text {
+  font-size: 20px;
+}
+
+.award-text {
+  font-size: 20px;
+}
+div {
+  font-size: 25px;
+}
+
+@media (max-width: 1000px){
+  .side-bar {
+    z-index: 0;
+    display: none;
+  }
+  .on-side-bar {
+    opacity: 0;
+  }
+  #menu-btn {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1000px){
+  .semi-title {
+    margin: 50px auto 0 auto;
+  }
+  .main {
+    text-align: center;
+  }
+  .top-introduction {
+    min-height: 30vh;
+    background-size: cover;
+  }
+  .introduction-class {
+    width:30px;
+    height: 30px;
+    background-image: url("/assets/introduction_img-29d8db3c.png");
+  }
+  .profile_img {
+    width: 100px;
+    height: 100px;
+  }
+  .hobby-content {
+    display:inline;
+    width: 300px;
+  }
+  .hobby {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .hobby_img {
+    width: 300px;
+    border-radius: 70%;
+  }
+  h2 {
+    width: 100%;
+    padding: 0;
+    font-size: 40px;
+  }
+  .hobby-content {
+    padding: 0;
+  }
+  .img {
+    width: 300px;
+  }
+  .semi-title {
+    padding: 0;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 50px;
+  }
+  div {
+    font-size: 20px;
+  }
+  .top-introduction {
+    padding: 20px;
+  }
+
+  @media (max-width: 600px){
+    .semi-title {
+      margin: 50px auto 0 auto;
+    }
+    .main {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .top-introduction {
+      min-height: 15vh;
+      background-size: cover;
+    }
+    .introduction-class {
+      width:30px;
+      height: 30px;
+      background-image: url("/assets/introduction_img-29d8db3c.png");
+    }
+    .profile_img {
+      width: 0px;
+      height: 0px;
+    }
+    .hobby-content {
+      display:inline;
+      width: 150px;
+    }
+    .hobby {
+      width: 200px;
+      margin: 0 auto;
+    }
+    .hobby_img {
+      width: 200px;
+      border-radius: 70%;
+    }
+    h2 {
+      width: 300px;
+      font-size: 30px;
+    }
+    .img {
+      width: 300px;
+    }
+    .semi-title {
+      padding: 0;
+    }
+    h3 {
+      font-size: 25px;
+    }
+    .name {
+      font-size: 50px;
+    }
+    div {
+      font-size: 20px;
+    }
+    .top-introduction {
+      padding: 20px;
+    }
+    .sns_img {
+      width: 30px;
+      height: 30px;
+    }
+    .award-text {
+      font-size: 20px;
+    }
+    .hobby-text {
+      font-size: 20px;
+    }
+    .content-text {
+      font-size: 16px;
+      margin: 0 auto;
+      width: 90%;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+    #top-btn {
+      width: 80px;
+      height: 80px;
+      font-size: 10px;
+      right: 50px;
+      bottom: 50px;
+    }
+
+    .news-title{
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+
+    .main {
+      padding: 0;
+    }
+
+    .your-class {
+      padding: 0;
+      margin: 0;
+    }
+    .news-harf {
+      width: 100%;
+   }
+ }
+}
