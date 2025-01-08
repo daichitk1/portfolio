@@ -272,7 +272,7 @@ div {
   #menu-btn {
     opacity: 0;
   }
-}
+
 
 @media (max-width: 1000px){
   .semi-title {
@@ -336,7 +336,6 @@ div {
     padding-left: 200px;
     font-size: 40px;
   }
-}
 }
   @media (max-width: 600px){
     .semi-title {
