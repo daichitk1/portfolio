@@ -272,9 +272,6 @@ div {
   #menu-btn {
     opacity: 0;
   }
-
-
-@media (max-width: 1000px){
   .semi-title {
     margin: 50px auto 0 auto;
   }
@@ -337,6 +334,7 @@ div {
     font-size: 40px;
   }
 }
+
   @media (max-width: 600px){
     .semi-title {
       margin: 50px auto 0 auto;
