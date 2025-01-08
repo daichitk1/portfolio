@@ -164,9 +164,8 @@ h3 {
 }
 
 .hobby_img {
-  width: 400px;
+  width: 450px;
   margin: 0 auto;
-  border-radius: 70%;
   padding-top: 30px;
 }
 
@@ -348,12 +347,14 @@ div {
       width: 150px;
     }
     .hobby {
-      width: 200px;
+      width: 300px;
       margin: 0 auto;
     }
     .hobby_img {
-      width: 200px;
-      border-radius: 70%;
+      width: 250px;
+      height: 200px;
+      margin: 0 auto;
+      border-radius: 0%;
     }
     h2 {
       width: 300px;
@@ -364,7 +365,16 @@ div {
     }
     .semi-title {
       padding: 0;
+      margin: 0px;
     }
+    .semi-title-1 {
+        padding-top: 30px;
+        padding-bottom: 60px;
+      }
+      .semi-title-2 {
+        padding-top: 30px;
+        padding-bottom: 60px;
+      }
     h3 {
       font-size: 25px;
     }
@@ -390,12 +400,13 @@ div {
     .content-text {
       font-size: 16px;
       margin: 0 auto;
-      width: 90%;
+      width: 80%;
     }
 
     h3 {
       font-size: 20px;
     }
+
     #top-btn {
       width: 80px;
       height: 80px;
@@ -419,6 +430,10 @@ div {
     }
     .news-harf {
       width: 100%;
+   }
+   .information-content{
+    width: 70%;
+    margin: 0 auto;
    }
  }
 }
