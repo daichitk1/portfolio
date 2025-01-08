@@ -35,3 +35,13 @@ const side_bar = document.querySelector('.on-side-bar');
 menu_btn.addEventListener("click", () =>{
     side_bar.classList.toggle('on-side-bar');
 });
+
+$(document).ready(function(){
+    $('.news').slick({
+        infinite: true,
+        speed: 3000,
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 1,
+    });
+  });
