@@ -469,4 +469,8 @@ div {
     padding-left: 100px;
     font-size: 40px;
   }
+  .news-img {
+    width: 350px;
+    height: 280px;
+  }
 }
