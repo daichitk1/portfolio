@@ -21,6 +21,11 @@
 .introduction  {
   margin: 0 auto;
 }
+
+.sns {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
  .name {
   font-family: 'Sacramento', cursive;
   font-size: 120px;
