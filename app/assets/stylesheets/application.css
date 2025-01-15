@@ -32,6 +32,12 @@
     background-image: url("/assets/introduction_img-29d8db3c.png");
   }
 
+  .policy {
+    padding-top :100px;
+    padding-bottom :200px;
+    text-align: center;
+  }
+
 .main {
   text-align: center;
   margin: 0 auto;
@@ -267,6 +273,9 @@ div {
 }
 
 @media (max-width: 1000px){
+  .policy {
+    font-size: 12px;
+  }
   .side-bar {
     z-index: 0;
     display: none;
