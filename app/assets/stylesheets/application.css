@@ -142,6 +142,8 @@ body {
 
 h2 {
   font-family: 'Cherry Swash', cursive;
+  font-weight: bold;
+  color: rgb(95, 214, 254); 
   font-size: 5px;
   position: relative;
   padding: 0;
@@ -176,7 +178,8 @@ h2:after {
   max-width: 450px;
 }
 h3 {
-  color: rgb(106, 106, 250);
+  color: rgb(250, 184, 195);
+  font-weight: bold;
   margin-bottom: 15px;
   margin-top: 50px;
 }
@@ -204,7 +207,7 @@ h3 {
 
 
 .semi-title-3 {
-  background-color: rgb(214, 248, 245);
+  background-color: pink;
   padding-top: 50px;
   padding-bottom: 50px;
 }
