@@ -212,6 +212,10 @@ h3 {
   margin-top: 50px;
 }
 
+h4 {
+  text-align: center;
+}
+
 .hobby_img {
   width: 450px;
   margin: 0 auto;
