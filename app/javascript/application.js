@@ -62,3 +62,19 @@ $(document).ready(function(){
     maxDistance: 16.00,
     spacing: 13.00
   })
+
+
+const items = document.querySelectorAll('.item');
+
+for (let i=0; i<items.length; i++) {
+    const keyframes = {
+        opacity: [0, 1]
+    }; 
+    
+    const options = {
+        duration: 2000,
+        fill: 'forwards',
+        delay: 3000 + i*300,
+    };
+    items[i].animate(keyframes, options);
+};
