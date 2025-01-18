@@ -165,7 +165,7 @@ h1 {
 body {
   font-family: "kleeone";
   font-size: 30px;
-  background-color: #dbfafc;
+  background-color: #e7f7f8;
 }
 
 .profile_img {
@@ -239,10 +239,13 @@ h4 {
 }
 
 .semi-title-1 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(251, 249, 249);
 }
 
-
+.semi-title-2 {
+  background-color: rgb(146, 47, 72);
+  color: white;
+}
 
 .semi-title-3 {
   background-color: pink;
