@@ -98,3 +98,13 @@ for (let i=0; i<items.length; i++) {
     };
     items[i].animate(keyframes, options);
 };
+
+$(document).ready(function(){
+    $('.activities').slick({
+        infinite: true,
+        speed: 1000,
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 1,
+    });
+  });
