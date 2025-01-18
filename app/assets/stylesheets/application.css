@@ -12,6 +12,7 @@
  @import url('https://fonts.googleapis.com/css?family=Sacramento');
 .top-introduction {
   background-image: url("/assets/IMG_5482-0741b2ff.png");
+  background-color: rgb(161, 31, 57);
   text-align: center;
   margin: 0 auto;
   min-height: 100vh;
