@@ -4,7 +4,7 @@
 <div class="introduction">
   <div class="top-introduction">
     <%= image_tag "introduction_img.png", class: "profile_img" %>
-    <h1 class="name my-5 pt-4" id="introduction">Daichi Takei</h1>
+    <h1 class="name" id="introduction">Daichi Takei</h1>
   </div>
 </div>
 <div class="main sns">
@@ -65,7 +65,8 @@
     <div class="container">
       <a href="#goal">
         <div class="item">
-          理想のエンジニア像
+          理想の<br>
+          エンジニア像
         </div>
       </a>
       <a href="#information_skill">
@@ -189,26 +190,28 @@
 
   <div class="semi-title semi-title-2">
     <h2 id="hobby">趣味</h2>
-      <div class="hobby-content">
-        <div class="hobby">
-          <h3>登山</h3>
-          <div class="content-text my-2">
-            自然が好きで、2024年は休日に多く山に登りました!<br>
-            山を登るにつれ、徐々に見える景色が変わっていく感じや山頂に登った時の達成感が好きです。<br><br>
-            2024年登った山: 富士山、雲取山、大菩薩嶺など
+      <div class="hobby-all">
+        <div class="hobby-content">
+          <div class="hobby">
+            <h3>登山</h3>
+            <div class="content-text my-2">
+              自然が好きで、2024年は休日に多く山に登りました!<br>
+              山を登るにつれ、徐々に見える景色が変わっていく感じや山頂に登った時の達成感が好きです。<br><br>
+              2024年登った山: 富士山、雲取山、大菩薩嶺など
+            </div>
+            <a href="https://yamap.com/users/3228085" target="_blank"><%= image_tag "IMG_3168.png", class: "hobby_img" %></a>
           </div>
-          <a href="https://yamap.com/users/3228085" target="_blank"><%= image_tag "IMG_3168.png", class: "hobby_img" %></a>
         </div>
-      </div>
-      <div class="hobby-content">
-        <div class="hobby">
-          <h3>サイクリング</h3>
-          <div class="content-text my-2">
-            東京都内の様々なところにサイクリングに行きます。<br>
-            (庭園や公園、夜景スポットなど)<br><br>
-            今年はロードバイクを購入し、100kmサイクリングをしたいと思っています。
+        <div class="hobby-content">
+          <div class="hobby">
+            <h3>サイクリング</h3>
+            <div class="content-text my-2">
+              東京都内の様々なところにサイクリングに行きます。<br>
+              (庭園や公園、夜景スポットなど)<br><br>
+              今年はロードバイクを購入し、100kmサイクリングをしたいと思っています。
+            </div>
+            <%= image_tag "IMG_4328.png", class: "hobby_img" %>
           </div>
-          <%= image_tag "IMG_4328.png", class: "hobby_img" %>
         </div>
       </div>
   </div>

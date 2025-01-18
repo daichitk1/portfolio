@@ -46,6 +46,16 @@ $(document).ready(function(){
     });
   });
 
+  $(document).ready(function(){
+    $('.hobby-all').slick({
+        infinite: true,
+        speed: 1000,
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 1,
+    });
+  });
+
 
   VANTA.NET({
     el: "#goal",
