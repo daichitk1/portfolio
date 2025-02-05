@@ -321,6 +321,11 @@ div {
   font-size: 25px;
 }
 
+.x-place {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 @media (max-width: 1000px){
   .name {
     background-color: transparent;
@@ -558,5 +563,10 @@ div {
 
   h4 {
     font-size: 18px;
+  }
+
+  .x-place {
+    max-width: 350px;
+    margin: 0 auto;
   }
 }
