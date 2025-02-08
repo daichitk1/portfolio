@@ -82,7 +82,8 @@ h1 {
 
 .news-title{
   font-family: 'Cherry Swash', cursive;
-  padding-left: 200px;
+  max-width: 1000px;
+  margin: 0 auto;
   padding-top: 20px;
   font-size: 50px;
 }
