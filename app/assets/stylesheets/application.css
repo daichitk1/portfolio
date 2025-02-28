@@ -424,7 +424,10 @@ div {
     font-size: 16px;
   }
   .news {
-    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    padding:20px;
   }
 }
 
@@ -562,6 +565,7 @@ div {
   .top-introduction {
     background-image: none;
     margin: 0 auto;
+    height: 300px;
     padding: 5px;
   }
 
