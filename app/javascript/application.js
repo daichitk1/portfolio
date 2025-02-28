@@ -36,15 +36,6 @@ menu_btn.addEventListener("click", () =>{
     side_bar.classList.toggle('on-side-bar');
 });
 
-$(document).ready(function(){
-    $('.news').slick({
-        infinite: true,
-        speed: 3000,
-        arrows: false,
-        autoplay: true,
-        slidesToShow: 1,
-    });
-  });
 
   $(document).ready(function(){
     $('.hobby-all').slick({
