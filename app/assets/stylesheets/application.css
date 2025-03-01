@@ -104,6 +104,10 @@ h1 {
     padding: 20px;
 }
 
+.news-content:hover {
+  background-color: rgb(254, 166, 188);
+}
+
 .news {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -188,7 +192,7 @@ body {
 h2 {
   font-family: 'Cherry Swash', cursive;
   font-weight: bold;
-  color: rgb(95, 214, 254); 
+  color: rgb(95, 214, 254);
   font-size: 5px;
   position: relative;
   padding: 0;
@@ -223,7 +227,7 @@ h2:after {
   max-width: 450px;
 }
 h3 {
-  color: rgb(250, 184, 195);
+  color: rgb(250, 75, 104);
   font-weight: bold;
   margin-bottom: 15px;
   margin-top: 50px;
@@ -256,8 +260,7 @@ h4 {
 }
 
 .semi-title-2 {
-  background-color: rgb(161, 31, 57);
-  color: white;
+  background-color:rgb(253, 214, 224);
   padding-top:80px;
   padding-bottom: 200px;
 }
