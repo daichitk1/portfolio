@@ -20,6 +20,11 @@
   padding-top: 50px;
 }
 
+a:hover{
+	opacity:0.5;
+	transition:0.3s;
+}
+
 .news-img-block {
   margin: 0 auto;
 }
